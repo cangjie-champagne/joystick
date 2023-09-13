@@ -220,7 +220,7 @@ class Joystick {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['mouth'],
       web: []
     };
     
@@ -236,19 +236,19 @@ class Joystick {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['heart'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['wood'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['twenty'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['day'];
           break;
       }
     }
